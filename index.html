@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web全景</title>
+	<script src="./js/three.min.js"></script>
+	<script src="./js/Opanorama.min.js"></script>
+</head>
+<body>
+	<script>
+		const panorama = new Opanorama({
+			url: './images/0.jpg',
+			container: document.body,
+			raidus: 500,
+			fov: 90,
+			offsetLongitude: 0,
+			offsetLatitude: 0,
+			supportTouch: true,
+			supportOrient: true
+		});
+	</script>
+</body>
+</html>
